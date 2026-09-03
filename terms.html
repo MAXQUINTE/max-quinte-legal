@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MAX QUINTE — Conditions d'utilisation</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap');
+
+  :root {
+    --bg: #faf7f0;
+    --surface: #ffffff;
+    --text: #211d17;
+    --text-muted: #6b6355;
+    --accent: #a8752a;
+    --accent-soft: #f1e4cc;
+    --border: #e5dfd1;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", "SF Mono", Consolas, monospace;
+    color-scheme: light;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16130e;
+      --surface: #1e1a13;
+      --text: #f0ebe0;
+      --text-muted: #a79e8c;
+      --accent: #d9a94a;
+      --accent-soft: #362a16;
+      --border: #332c21;
+      color-scheme: dark;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    line-height: 1.65;
+    margin: 0;
+    padding: 0 24px 96px;
+  }
+
+  .wrap { max-width: 680px; margin: 0 auto; }
+
+  header {
+    padding: 56px 0 32px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+  }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+
+  .eyebrow::before { content: ""; width: 22px; height: 1px; background: var(--accent); }
+
+  h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: clamp(32px, 5vw, 44px);
+    margin: 0 0 12px;
+    text-wrap: balance;
+  }
+
+  .lede { color: var(--text-muted); font-size: 16px; max-width: 52ch; }
+  .meta { font-family: var(--mono); font-size: 12px; color: var(--text-muted); margin-top: 20px; }
+
+  section { margin-bottom: 40px; }
+
+  .num {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  h2 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0 0 14px;
+    text-wrap: balance;
+  }
+
+  p { margin: 0 0 14px; max-width: 65ch; }
+  p:last-child { margin-bottom: 0; }
+  ul { margin: 0 0 14px; padding-left: 20px; max-width: 62ch; }
+  li { margin-bottom: 8px; }
+  li:last-child { margin-bottom: 0; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 24px 28px;
+  }
+
+  .callout {
+    border-left: 3px solid var(--accent);
+    background: var(--accent-soft);
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    font-size: 15px;
+  }
+  .callout p { margin: 0; max-width: none; }
+
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  footer {
+    border-top: 1px solid var(--border);
+    margin-top: 56px;
+    padding-top: 24px;
+    color: var(--text-muted);
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  code {
+    font-family: var(--mono);
+    background: var(--accent-soft);
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.92em;
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">MAX QUINTE</div>
+    <h1>Conditions d'utilisation</h1>
+    <p class="lede">Les règles d'usage de MAX QUINTE, un outil personnel d'automatisation de contenu.</p>
+    <div class="meta">Dernière mise à jour : 3 septembre 2026</div>
+  </header>
+
+  <section>
+    <span class="num">01</span>
+    <h2>Champ d'application</h2>
+    <p>MAX QUINTE est un outil interne, utilisé par un seul opérateur pour préparer et publier des vidéos sur ses propres comptes TikTok (<code>@maxquinte1</code>) et YouTube. Il n'est pas distribué, ni proposé à d'autres utilisateurs ou comptes. En utilisant cet outil, l'opérateur accepte les conditions ci-dessous.</p>
+  </section>
+
+  <section>
+    <span class="num">02</span>
+    <h2>Nature du contenu publié</h2>
+    <div class="callout">
+      <p>Le contenu publié (analyses et pronostics du Quinté+) est strictement informatif. Il ne constitue ni un conseil de pari, ni une garantie de résultat. MAX QUINTE ne gère, ne collecte et ne recommande aucune mise d'argent réelle.</p>
+    </div>
+  </section>
+
+  <section>
+    <span class="num">03</span>
+    <h2>Fonctionnement</h2>
+    <ul>
+      <li>Les données de course proviennent de sources publiques (PMU, presse hippique).</li>
+      <li>Chaque vidéo est générée automatiquement puis <strong>validée manuellement par l'opérateur avant toute publication</strong> — aucun contenu ne part en ligne sans cette validation.</li>
+      <li>La publication utilise les API officielles de TikTok et YouTube, avec l'autorisation explicite de l'opérateur sur ses propres comptes.</li>
+    </ul>
+  </section>
+
+  <section>
+    <span class="num">04</span>
+    <h2>Responsabilité</h2>
+    <p>MAX QUINTE est fourni tel quel, sans garantie de disponibilité, d'exactitude des données de course ou de performance des pronostics. L'opérateur reste seul responsable du contenu qu'il valide et publie.</p>
+  </section>
+
+  <section>
+    <span class="num">05</span>
+    <h2>Jeu responsable</h2>
+    <p>Le contenu publié rappelle systématiquement que le jeu comporte des risques et invite à jouer de manière responsable. MAX QUINTE ne s'adresse pas à un public mineur et ne fait la promotion d'aucun opérateur de paris.</p>
+  </section>
+
+  <section>
+    <span class="num">06</span>
+    <h2>Modifications</h2>
+    <p>Ces conditions peuvent être mises à jour si le fonctionnement de l'outil évolue. La date en haut de page reflète toujours la version en vigueur.</p>
+  </section>
+
+  <section>
+    <span class="num">07</span>
+    <h2>Contact</h2>
+    <p>Pour toute question : <a href="mailto:legrosjeanthierry@orange.fr">legrosjeanthierry@orange.fr</a></p>
+  </section>
+
+  <footer>
+    <span>MAX QUINTE — usage personnel</span>
+    <span>@maxquinte1</span>
+  </footer>
+</div>
+</body>
+</html>
